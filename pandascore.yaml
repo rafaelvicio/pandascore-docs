@@ -1,0 +1,1137 @@
+_type: export
+__export_format: 4
+__export_date: 2020-02-28T04:58:24.011Z
+__export_source: insomnia.desktop.app:v6.5.4
+resources:
+  - _id: req_9be45b4771ad4b7aaed83ed759e811d9
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865844050
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865844050
+    method: GET
+    modified: 1582865854121
+    name: List additions
+    parameters: []
+    parentId: fld_61b5d70cca344ca192c15591fadf6188
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/additions"
+    _type: request
+  - _id: fld_61b5d70cca344ca192c15591fadf6188
+    created: 1582865834299
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582865834299
+    modified: 1582865834299
+    name: Incidents
+    parentId: fld_e27c7288703944c9af096b9a760e2ac3
+    _type: request_group
+  - _id: fld_e27c7288703944c9af096b9a760e2ac3
+    created: 1582865824866
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582865824866
+    modified: 1582865824866
+    name: Meta
+    parentId: wrk_bc4b33f0326248fb9007502383ddfaf7
+    _type: request_group
+  - _id: wrk_bc4b33f0326248fb9007502383ddfaf7
+    created: 1582084589871
+    description: ""
+    modified: 1582084589871
+    name: PandaScore
+    parentId: null
+    _type: workspace
+  - _id: req_f6552015371d4ba3b7a0db281f3af1ef
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865855659
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865753492
+    method: GET
+    modified: 1582865864295
+    name: List changes
+    parameters: []
+    parentId: fld_61b5d70cca344ca192c15591fadf6188
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/changes"
+    _type: request
+  - _id: req_5b83bc37df734df1bce9f0023b2ae93c
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865869359
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865708213
+    method: GET
+    modified: 1582865875696
+    name: List deletions
+    parameters: []
+    parentId: fld_61b5d70cca344ca192c15591fadf6188
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/deletions"
+    _type: request
+  - _id: req_5596a257b76b44518501e8166e52d2e2
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865880573
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865685573.5
+    method: GET
+    modified: 1582865886234
+    name: List changes, additions and deletions
+    parameters: []
+    parentId: fld_61b5d70cca344ca192c15591fadf6188
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/incidents"
+    _type: request
+  - _id: req_229d7f5f3f6d4c9b8a77d93e0b72443e
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865662934
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865662934
+    method: GET
+    modified: 1582865673365
+    name: List leagues
+    parameters: []
+    parentId: fld_a543b257a3034c7dbd765369011de559
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/leagues"
+    _type: request
+  - _id: fld_a543b257a3034c7dbd765369011de559
+    created: 1582865656707
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582865656707
+    modified: 1582865656707
+    name: Leagues
+    parentId: fld_7b6902e86de84cfab322cdced206bf5d
+    _type: request_group
+  - _id: fld_7b6902e86de84cfab322cdced206bf5d
+    created: 1582084700127
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582084700127
+    modified: 1582084700127
+    name: All Videogames
+    parentId: wrk_bc4b33f0326248fb9007502383ddfaf7
+    _type: request_group
+  - _id: req_3bc39dc8931342b6b11e7758a28748ff
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865675124
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865590563.5
+    method: GET
+    modified: 1582865686855
+    name: Get a league
+    parameters: []
+    parentId: fld_a543b257a3034c7dbd765369011de559
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/leagues/{league_id_or_slug}"
+    _type: request
+  - _id: req_3c27065a58bb4574ad3b0d65a598d200
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865692519
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865554378.25
+    method: GET
+    modified: 1582865701968
+    name: Get matches for a league
+    parameters: []
+    parentId: fld_a543b257a3034c7dbd765369011de559
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/leagues/{league_id_or_slug}/matches"
+    _type: request
+  - _id: req_a6d236d328d048a6997c3abc0e86dec2
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865706752
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865536285.625
+    method: GET
+    modified: 1582865716280
+    name: Get past matches for league
+    parameters: []
+    parentId: fld_a543b257a3034c7dbd765369011de559
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/leagues/{league_id_or_slug}/matches/past"
+    _type: request
+  - _id: req_d2ed450d67eb4e38b69d5f110cec5ed9
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865722579
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865527239.3125
+    method: GET
+    modified: 1582865732493
+    name: Get running matches for league
+    parameters: []
+    parentId: fld_a543b257a3034c7dbd765369011de559
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/leagues/{league_id_or_slug}/matches/running"
+    _type: request
+  - _id: req_1f2b1e2ebd904066984b5e25ae33a8b6
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865738259
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865522716.1562
+    method: GET
+    modified: 1582865746900
+    name: Get upcoming matches for league
+    parameters: []
+    parentId: fld_a543b257a3034c7dbd765369011de559
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/leagues/{league_id_or_slug}/matches/upcoming"
+    _type: request
+  - _id: req_f2f333b621484bedb1deacdf834a76a6
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865751940
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865520454.5781
+    method: GET
+    modified: 1582865759060
+    name: List series of a league
+    parameters: []
+    parentId: fld_a543b257a3034c7dbd765369011de559
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/leagues/{league_id_or_slug}/series"
+    _type: request
+  - _id: req_a13352607d4443dfb4e83573e4fb6d85
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865764498
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865519323.789
+    method: GET
+    modified: 1582865772012
+    name: Get tournaments for a league
+    parameters: []
+    parentId: fld_a543b257a3034c7dbd765369011de559
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/leagues/{league_id_or_slug}/tournaments"
+    _type: request
+  - _id: req_f8ce86daf8ed4d2798e549d9124a210c
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865518193
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865518193
+    method: GET
+    modified: 1582865530184
+    name: List series
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series"
+    _type: request
+  - _id: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    created: 1582865511359
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582865511359
+    modified: 1582865511359
+    name: Series
+    parentId: fld_7b6902e86de84cfab322cdced206bf5d
+    _type: request_group
+  - _id: req_e73e9077b6ce4acebc65fff611c68277
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865532112
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865436019.5
+    method: GET
+    modified: 1582865541913
+    name: Get past series
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/past"
+    _type: request
+  - _id: req_f006d28a1c724dbd9de4f5287ec52c18
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865546792
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865394932.75
+    method: GET
+    modified: 1582865551961
+    name: Get running series
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/running"
+    _type: request
+  - _id: req_0aba05e1ee4b4c90b10809e5ee50f10e
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865557271
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865374389.375
+    method: GET
+    modified: 1582865561265
+    name: Get upcoming series
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/upcoming"
+    _type: request
+  - _id: req_f0dfd98ea08c487fb325b63941b55fdb
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865566020
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865364117.6875
+    method: GET
+    modified: 1582865573308
+    name: Get a serie
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/{serie_id_or_slug}"
+    _type: request
+  - _id: req_03a9894390654c8ba746895cf70c9e28
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865578717
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865358981.8438
+    method: GET
+    modified: 1582865585803
+    name: Get matches for a serie
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/{serie_id_or_slug}/matches"
+    _type: request
+  - _id: req_4d9e1fe3e03d45cc97be63f1eecce2db
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865590761
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865356413.9219
+    method: GET
+    modified: 1582865599003
+    name: Get past matches for serie
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/{serie_id_or_slug}/matches/past"
+    _type: request
+  - _id: req_6031555a89fc4c57a4c870029609d466
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865603997
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865355129.961
+    method: GET
+    modified: 1582865614857
+    name: Get running matches for serie
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/{serie_id_or_slug}/matches/running"
+    _type: request
+  - _id: req_0918f5af205f4e0b97d1e80160fc1d52
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865620447
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865354487.9805
+    method: GET
+    modified: 1582865628354
+    name: Get upcoming matches for serie
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/{serie_id_or_slug}/matches/upcoming"
+    _type: request
+  - _id: req_63bc6baf993c4cc6aaf1ca37b5ca9f56
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865633476
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865354166.9902
+    method: GET
+    modified: 1582865642538
+    name: Get tournaments for a serie
+    parameters: []
+    parentId: fld_e6fc9a88d09f456f85506f7a5cbacfba
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/series/{serie_id_or_slug}/tournaments"
+    _type: request
+  - _id: req_e85007de3e664bb08ac2b053bd4f2e05
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865353846
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865353846
+    method: GET
+    modified: 1582865373128
+    name: List tournaments
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments"
+    _type: request
+  - _id: fld_d43f12d2ce5641fa80f164112eab20c8
+    created: 1582865347506
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582865347506
+    modified: 1582865347506
+    name: Tournaments
+    parentId: fld_7b6902e86de84cfab322cdced206bf5d
+    _type: request_group
+  - _id: req_755893e7ac3f4da393a9f49dfd17bd58
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865375006
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865261166
+    method: GET
+    modified: 1582865383384
+    name: Get past tournaments
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments/past"
+    _type: request
+  - _id: req_ba7645667aa8445eba3a3cd33a4f78a0
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865388513
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865214826
+    method: GET
+    modified: 1582865396265
+    name: Get running tournaments
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments/running"
+    _type: request
+  - _id: req_df0db00dfae440009674b5d219735ae8
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865400771
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865191656
+    method: GET
+    modified: 1582865407994
+    name: Get upcoming tournaments
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments/upcoming"
+    _type: request
+  - _id: req_7e3ef552987841c7b986fd58b26bf2f8
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865413915
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865180071
+    method: GET
+    modified: 1582865456418
+    name: Get a tournament
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments/{tournament_id_or_slug}"
+    _type: request
+  - _id: req_ded7ebcb30b74f9d9747c12eac5a0547
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865440644
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865174278.5
+    method: GET
+    modified: 1582865452754
+    name: Get a tournament's brackets
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments/{tournament_id_or_slug}/brackets"
+    _type: request
+  - _id: req_d85bbbafec964476909761cd23705b73
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865464484
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865171382.25
+    method: GET
+    modified: 1582865471928
+    name: Get matches for tournament
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments/{tournament_id_or_slug}/matches"
+    _type: request
+  - _id: req_e1649e13165a4c6f9f5a734334079a0b
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865477957
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865169934.125
+    method: GET
+    modified: 1582865487127
+    name: Get tournament standings
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments/{tournament_id_or_slug}/standings"
+    _type: request
+  - _id: req_94487e188d1e4f039b7b6e29d853bbce
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865492174
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865169210.0625
+    method: GET
+    modified: 1582865501563
+    name: Get teams for a tournament
+    parameters: []
+    parentId: fld_d43f12d2ce5641fa80f164112eab20c8
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/tournaments/{tournament_id_or_slug}/teams"
+    _type: request
+  - _id: req_f357f1d6094547f19d46377f82590687
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582084710424
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582084620350
+    method: GET
+    modified: 1582084730059
+    name: List lives matches
+    parameters: []
+    parentId: fld_a0a113bf5b144279b687041ac564acd6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/lives"
+    _type: request
+  - _id: fld_a0a113bf5b144279b687041ac564acd6
+    created: 1582084613865
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582084613865
+    modified: 1582084702167
+    name: Matches
+    parentId: fld_7b6902e86de84cfab322cdced206bf5d
+    _type: request_group
+  - _id: req_a030655a39974cb1853ca22ea73af8c8
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582084620300
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582084620300
+    method: GET
+    modified: 1582084659219
+    name: List Matches
+    parameters: []
+    parentId: fld_a0a113bf5b144279b687041ac564acd6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/matches"
+    _type: request
+  - _id: req_9c88bac684e2454fb1c5f22f70a0ccc2
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582084745449
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582084586007
+    method: GET
+    modified: 1582084766225
+    name: Get past matches
+    parameters: []
+    parentId: fld_a0a113bf5b144279b687041ac564acd6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/matches/past"
+    _type: request
+  - _id: req_8947ca0a53ef45c18f24be754736b8d1
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582084779891
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582084568860.5
+    method: GET
+    modified: 1582084787622
+    name: Get running matches
+    parameters: []
+    parentId: fld_a0a113bf5b144279b687041ac564acd6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/matches/running"
+    _type: request
+  - _id: req_169123207650423f85185a47980d9cc0
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582084794721
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582084560287.25
+    method: GET
+    modified: 1582084806062
+    name: Get upcoming matches
+    parameters: []
+    parentId: fld_a0a113bf5b144279b687041ac564acd6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/matches/upcoming"
+    _type: request
+  - _id: req_ec5b143487924b1b97bc0f82f9e657b0
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582084813016
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582084556000.625
+    method: GET
+    modified: 1582084968885
+    name: Get a match
+    parameters: []
+    parentId: fld_a0a113bf5b144279b687041ac564acd6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/matches/{match_id_or_slug}"
+    _type: request
+  - _id: req_6d1cf5cdb5e44c0085a2021e0f41d6f1
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582084825668
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582084553857.3125
+    method: GET
+    modified: 1582085099657
+    name: Get a match's opponents
+    parameters: []
+    parentId: fld_a0a113bf5b144279b687041ac564acd6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/matches/554998/opponents"
+    _type: request
+  - _id: req_c09166824bb14986a3fdbee3eb675a24
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865143669
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865168486
+    method: GET
+    modified: 1582865274967
+    name: List teams
+    parameters: []
+    parentId: fld_14c5a1df60f54b2ba4bb3a7e1fbcb01b
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/teams"
+    _type: request
+  - _id: fld_14c5a1df60f54b2ba4bb3a7e1fbcb01b
+    created: 1582865131906
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582084613815
+    modified: 1582865134891
+    name: Teams
+    parentId: fld_7b6902e86de84cfab322cdced206bf5d
+    _type: request_group
+  - _id: req_6c12c6f9bb224466bb2c11f639e4d128
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865168436
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865168436
+    method: GET
+    modified: 1582865284455
+    name: Get a team
+    parameters: []
+    parentId: fld_14c5a1df60f54b2ba4bb3a7e1fbcb01b
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/teams/{team_id_or_slug}"
+    _type: request
+  - _id: req_fbdae82f72904fa3b334152b076f6a94
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865192947
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865143619
+    method: GET
+    modified: 1582865219235
+    name: Get leagues for a team
+    parameters: []
+    parentId: fld_14c5a1df60f54b2ba4bb3a7e1fbcb01b
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/teams/{team_id_or_slug}/leagues"
+    _type: request
+  - _id: req_24f86ae1e26f4c08b900d068b7490dbc
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865226903
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582863841514
+    method: GET
+    modified: 1582865235423
+    name: Get matches for team
+    parameters: []
+    parentId: fld_14c5a1df60f54b2ba4bb3a7e1fbcb01b
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/teams/{team_id_or_slug}/matches"
+    _type: request
+  - _id: req_124fd82527d24f60986991eed77a42b6
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865241236
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582863190461.5
+    method: GET
+    modified: 1582865246326
+    name: Get series for a team
+    parameters: []
+    parentId: fld_14c5a1df60f54b2ba4bb3a7e1fbcb01b
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/teams/{team_id_or_slug}/series"
+    _type: request
+  - _id: req_46dd845041af4c3cb1126c177b9a7a01
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582865255084
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582862864935.25
+    method: GET
+    modified: 1582865261722
+    name: Get tournaments for a team
+    parameters: []
+    parentId: fld_14c5a1df60f54b2ba4bb3a7e1fbcb01b
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/teams/{team_id_or_slug}/tournaments"
+    _type: request
+  - _id: req_32267a715afb4cde9deadb7e0ede45a0
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582856225155
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582856248812
+    method: GET
+    modified: 1582856289566
+    name: List players
+    parameters: []
+    parentId: fld_4ad274c516634985a846269d116b71d6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/players"
+    _type: request
+  - _id: fld_4ad274c516634985a846269d116b71d6
+    created: 1582856203576
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1582084613765
+    modified: 1582865326662
+    name: Players
+    parentId: fld_7b6902e86de84cfab322cdced206bf5d
+    _type: request_group
+  - _id: req_80bdf09ba28a4bf38ae06c78597e4ee2
+    authentication:
+      token: "{{ token  }}"
+      type: bearer
+    body: {}
+    created: 1582856248762
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582856248762
+    method: GET
+    modified: 1582856280941
+    name: Get a player
+    parameters: []
+    parentId: fld_4ad274c516634985a846269d116b71d6
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ host  }}/players/{player_id_or_slug}"
+    _type: request
+  - _id: env_6568128654f6576a790f0157d6664cba40078329
+    color: null
+    created: 1582084590067
+    data:
+      host: https://api.pandascore.co
+      token: 7ryy6Oc-mRAAJY2213nnLvnlVjCE0i2GczsvPxDgIpePIBwPf6Q
+    dataPropertyOrder:
+      "&":
+        - host
+        - token
+    isPrivate: false
+    metaSortKey: 1582084590067
+    modified: 1582084651321
+    name: Base Environment
+    parentId: wrk_bc4b33f0326248fb9007502383ddfaf7
+    _type: environment
+  - _id: jar_6568128654f6576a790f0157d6664cba40078329
+    cookies: []
+    created: 1582084590068
+    modified: 1582084590068
+    name: Default Jar
+    parentId: wrk_bc4b33f0326248fb9007502383ddfaf7
+    _type: cookie_jar
