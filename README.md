@@ -17,6 +17,21 @@ git clone https://github.com/rafaelvicio/pandascore-docs.git
 Open your Insomnia, and choose the Import/Export option.
 Choose the pandascore.yaml file
 
+## Features
+
+| First Header   | Second Header |
+| -------------- | ------------- |
+| Meta           | Done          |
+| All Videogames | Done          |
+| CODMW          | Coming soon   |
+| CS:GO          | Coming soon   |
+| Dota 2         | Coming soon   |
+| LOL            | Coming soon   |
+| Overwatch      | Coming soon   |
+| PUBG           | Coming soon   |
+| RL             | Coming soon   |
+| Live           | Done          |
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
