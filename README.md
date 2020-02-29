@@ -19,18 +19,18 @@ Choose the pandascore.yaml file
 
 ## Features
 
-| First Header   | Second Header |
-| -------------- | ------------- |
-| Meta           | Done          |
-| All Videogames | Done          |
-| CODMW          | Coming soon   |
-| CS:GO          | Coming soon   |
-| Dota 2         | Coming soon   |
-| LOL            | Coming soon   |
-| Overwatch      | Coming soon   |
-| PUBG           | Coming soon   |
-| RL             | Coming soon   |
-| Live           | Done          |
+| First Header   | Second Header       |
+| -------------- | ------------------- |
+| Meta           | Done                |
+| All Videogames | Done                |
+| CODMW          | Coming Soon         |
+| CS:GO          | Working In Progress |
+| Dota 2         | Coming Soon         |
+| LOL            | Coming Soon         |
+| Overwatch      | Coming Soon         |
+| PUBG           | Coming Soon         |
+| RL             | Coming Soon         |
+| Live           | Done                |
 
 ## Contributing
 
